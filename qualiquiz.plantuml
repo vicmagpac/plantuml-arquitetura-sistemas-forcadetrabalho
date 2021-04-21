@@ -1,0 +1,14 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+System_Boundary(qualiquiz, "Qualiquiz") {
+    Container(moodle, "Moodle EAD", "PHP")
+    ContainerDb(postgres, "Banco de dados", "Banco de dados do moodle")
+
+    Rel(moodle, postgres, "Ler e escreve no banco", "PDO");
+    Rel(profissionalDeSaude, moodle, "Acessa o mapa da saúde", "HTTPS");
+}
+
+@enduml

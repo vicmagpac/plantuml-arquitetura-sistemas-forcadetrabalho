@@ -1,0 +1,18 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+System_Boundary(mapadasaude, "Mapa da Saúde") {
+    Container(aplicacao, "Mapa da Saúde", "PHP, slim, Doctrine")
+    ContainerDb(postgres, "Banco de dados", "Postgres, postgis")
+
+    Rel(aplicacao, postgres, "Ler e escreve no banco", "Doctrine");
+    Rel(profissionalDeSaude, aplicacao, "Acessa o mapa da saúde", "HTTPS");
+}
+
+System_Ext(cnes, "CNES", "Cadastro nacional de estabelecimento de saúde")
+
+Rel(aplicacao, cnes, "Integra instituições, Profissionais e vinculos", "SOAP");
+
+@enduml

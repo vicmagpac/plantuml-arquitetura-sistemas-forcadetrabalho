@@ -1,0 +1,17 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+System_Boundary(IDSaude, "IDSaude") {
+    ContainerDb(postgres, "Banco de dados", "PostgreSQL")
+    Container(apieadmin, "IDSaúde  - Admin e API", "Java, Angular")
+    Container(minhaconta, "Minha conta", "Freemaker")
+
+    Rel(apieadmin, postgres, "Ler e escreve no banco", "ORM Hibernate");
+    Rel(apieadmin, minhaconta, "módulo do keycloak");
+    Rel(profissionalDeSaude, minhaconta, "Acessa o IDSaúde - cadastro, minha conta, consentimentos", "HTTPS");
+}
+
+
+@enduml

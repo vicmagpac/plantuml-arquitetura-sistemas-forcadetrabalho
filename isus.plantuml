@@ -1,0 +1,23 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+System_Boundary(isus, "iSUS") {
+    Container(isusapi, "iSUS API", "PHP, Laravel")
+    Container(isusapp, "iSUS APP", "javascript, reactnative, android, ios")
+    ContainerDb(bancoisus, "Banco de dados", "mysql", "Banco de dados da API do iSUS")
+
+    Rel(isusapp, isusapi, "Cadastro do profissional", "RestFul");
+    Rel(isusapi, bancoisus, "Ler e escreve no banco", "Eloquent");
+
+    Rel(profissionalDeSaude, isusapp, "Acessa o aplicativo", "Android ou IOS");
+}
+
+System_Boundary(coronavirus, "coronavirus.ceara.gov.br") {
+    System_Ext(wordpressapi, "WordPress API", "Gerenciamento de categorias e projetos")
+}
+
+Rel(isus, wordpressapi, "Integração categorias e projetos", "RestFul");
+
+@enduml
