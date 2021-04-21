@@ -4,7 +4,7 @@
 Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
 
 System_Boundary(aavaliacaoforca, "Projeto Avaliação da força de trabalho") {
-    System(IDSaude, "IDSaúde", "Keycloak")
+    System(IDSaude, "IDSaúde", "Keycloak", $link="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/forcadetrabalho/avaliacaoforca.svg")
     System(mapadasaude, "Mapa da Saúde", "Mapeamento das instituições e profissionais de saúde")
     System(IDSaudeapi, "ID Saúde - API", "Extensão do ID Saúde keycloak")
     System(isus, "iSUS", "Aplicativo para profissionais de Saúde")
