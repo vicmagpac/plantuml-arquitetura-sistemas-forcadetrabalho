@@ -3,33 +3,44 @@
 
 Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
 
-System_Boundary(aavaliacaoforca, "Projeto Avaliação da força de trabalho") {
-    System(IDSaude, "IDSaúde", "Keycloak", $link="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/idsaude/IDSaude.svg")
-    System(mapadasaude, "Mapa da Saúde", "Mapeamento das instituições e profissionais de saúde")
-    System(IDSaudeapi, "ID Saúde - API", "Extensão do ID Saúde keycloak")
-    System(isus, "iSUS", "Aplicativo para profissionais de Saúde")
-    System(qualiquiz, "QualiQuiz", "Ferramenta para avaliações por competências dos profissionais de saúde")
-    Rel(profissionalDeSaude, isus, "Acessa o aplicativo", "Android ou ios")
-    Rel(profissionalDeSaude, mapadasaude, "Acessa ao mapa da Saúde, perfil, espaços e editais", "HTTPS")
-    Rel(profissionalDeSaude, IDSaude, "Acessa o IDSaúde - cadastro, minha conta, consentimentos", "HTTPS")
-    Rel(isus, qualiquiz, "Acessa o QualiQuiz", "HTTPS, Moodle")
 
-    Rel(mapadasaude, IDSaude, "Autenticação (browser)", "OPENID CONNECT");
-    Rel(isus, IDSaude, "Recuperação de senha", "HTTPS");
-    Rel(IDSaudeapi, IDSaude, "Extensão da API do IDSaude", "RestFul");
-    Rel(isus, IDSaudeapi, "Valida se CPF/email está cadastro", "RestFul");
-    Rel(isus, mapadasaude, "Integração Taxonomias", "RestFul");
+Enterprise_Boundary(susce, "SUS-CE") {
+
+    Enterprise_Boundary(esp, "ESP") {
+        System_Boundary(aavaliacaoforca, "Projeto Avaliação da força de trabalho") {
+            System(IDSaude, "IDSaúde", "Keycloak", $link="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/idsaude/IDSaude.svg")
+            System(mapadasaude, "Mapa da Saúde", "Mapeamento das instituições e profissionais de saúde")
+            System(IDSaudeapi, "ID Saúde - API", "Extensão do ID Saúde keycloak")
+            System(isus, "iSUS", "Aplicativo para profissionais de Saúde")
+            System(qualiquiz, "QualiQuiz", "Ferramenta para avaliações por competências dos profissionais de saúde")
+            Rel(profissionalDeSaude, isus, "Acessa o aplicativo", "Android ou ios")
+            Rel(profissionalDeSaude, mapadasaude, "Acessa ao mapa da Saúde, perfil, espaços e editais", "HTTPS")
+            Rel(profissionalDeSaude, IDSaude, "Acessa o IDSaúde - cadastro, minha conta, consentimentos", "HTTPS")
+            Rel(isus, qualiquiz, "Acessa o QualiQuiz", "HTTPS, Moodle")
+
+            Rel(mapadasaude, IDSaude, "Autenticação (browser)", "OPENID CONNECT");
+            Rel(isus, IDSaude, "Recuperação de senha", "HTTPS");
+            Rel(IDSaudeapi, IDSaude, "Extensão da API do IDSaude", "RestFul");
+            Rel(isus, IDSaudeapi, "Valida se CPF/email está cadastro", "RestFul");
+            Rel(isus, mapadasaude, "Integração Taxonomias", "RestFul");
+        }
+    }
+
+    System_Boundary(coronavirus, "coronavirus.ceara.gov.br") {
+        System_Ext(wordpressapi, "WordPress API", "Gerenciamento de categorias e projetos")
+    }
+
+    Enterprise_Boundary(sesa, "SESA") {
+        System_Boundary(rhsesa, "Sistema RH - SESA") {
+            System(rhsesaapi, "RH API", "Sistema de RH da SESA ")
+        }
+    }
+
+    Rel(isus, wordpressapi, "Integração categorias e projetos", "RestFul");
+    BiRel(rhsesaapi, mapadasaude, "Integração de profissionais", "RestFul");
 }
 
-System_Boundary(coronavirus, "coronavirus.ceara.gov.br") {
-    System_Ext(wordpressapi, "WordPress API", "Gerenciamento de categorias e projetos")
-}
 
-System_Boundary(rhsesa, "Sistema RH - SESA") {
-    System_Ext(rhsesaapi, "RH API", "Sistema de RH da SESA ")
-}
 
-Rel(isus, wordpressapi, "Integração categorias e projetos", "RestFul");
-Rel(rhsesaapi, mapadasaude, "Integração de profissionais", "RestFul");
 
 @enduml
