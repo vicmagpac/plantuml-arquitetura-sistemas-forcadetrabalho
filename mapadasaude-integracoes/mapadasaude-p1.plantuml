@@ -1,0 +1,25 @@
+@startuml mapadasaude
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+System_Boundary(mapadasaude, "Mapa da Saúde") {
+
+    Container(integrador, "Integrador", "API", "Integrador busca periodicamente dados nos sistema externos e realiza algumas ações")
+
+    Container(aplicacao, "Mapa da Saúde", "PHP, slim, Doctrine")
+    ContainerDb(postgres, "Banco de dados", "Postgres, postgis")
+
+    Rel(aplicacao, postgres, "Ler e escreve no banco", "Doctrine");
+}
+
+System_Ext(sacs, "SACS - API", "Sistema de seleções")
+System_Ext(sagu, "SAGU - API", "Sistema acadêmico")
+System_Ext(rpes, "RPES - API", "Sistema de regulação de práticas")
+
+Rel(integrador, sacs, "Busca inscritos das seleções", "API, RestFul");
+Rel(integrador, sagu, "Busca alunos", "API, RestFul");
+Rel(integrador, rpes, "Busca residentes", "API, RestFul");
+
+Rel(integrador, aplicacao, "1 - Buscar os dados em cada sistema; \n 2 - Verificar se a pessoa retornada pelos sistemas estão cadastrados no mapas; \n 3 - Se pessoa não existir no mapas, realiza o cadastro do agente com os dados importantes (taxonomias); \n 4 - Se pessoa já existir, atualiza os dados do agente;");
+
+@enduml
