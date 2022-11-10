@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1315px" preserveAspectRatio="none" style="width:1042px;height:1315px;background:#FFFFFF;" version="1.1" viewBox="0 0 1042 1315" width="1042px" zoomAndPan="magnify"><defs/><g><!--MD5=[3d67b846272ab09c325a505f02535bd7]
+cluster esp--><g id="cluster_esp"><rect fill="none" height="1059" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="676" x="7" y="250"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="28" x="331" y="289.104">ESP</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="310" y="306.6201">[Enterprise]</text></g><!--MD5=[79281927d11851eeec6f61ebc1273773]
+cluster sagu_system--><g id="cluster_sagu_system"><rect fill="none" height="241" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="584" x="67" y="775"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="44" x="337" y="814.104">SAGU</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="52" x="333" y="831.6201">[System]</text></g><!--MD5=[0c3a6b641a1bd84682aedeb9fb30aa70]
+cluster govbr--><g id="cluster_govbr"><rect fill="none" height="208" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="228" x="808" y="1090"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="895.5" y="1129.104">GovBR</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="887" y="1146.6201">[Enterprise]</text></g><!--MD5=[282a6cfda67f6118b89ea3b2c758e09c]
+entity saguapi--><g id="elem_saguapi"><rect fill="#1168BD" height="134.4078" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="218" x="211" y="553"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="295.5" y="575.8281">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="282.5" y="596.4481">SAGU API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="318" y="616.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="225" y="635.17">Interface para uso do Banco</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="243" y="654.2379">de Dados do SAGU em</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="259.5" y="673.3058">sistemas externos</text></g><!--MD5=[9774f59eda509a0761ead77aa570e1a4]
+entity esp_integracao_assinador--><g id="elem_esp_integracao_assinador"><rect fill="#1168BD" height="137.132" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="182" x="468" y="1156"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="534.5" y="1178.8281">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="505.5" y="1199.4481">Assinador de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="508" y="1221.2402">Documentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="557" y="1240.8941"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="482" y="1259.9621">Assina documentos via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="537" y="1279.03">Gov.br</text></g><!--MD5=[317cf2a79e3ca5035e3183a8f09601cf]
+entity isus--><g id="elem_isus"><a href="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg" target="_top" title="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg" xlink:type="simple"><rect fill="#1168BD" height="115.3399" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="218" x="23" y="327"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="107.5" y="349.8281">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="35" x="114.5" y="370.4481">iSUS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="130" y="390.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="37" y="409.17">Aplicativo para profissionais</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="100.5" y="428.2379">de Saúde</text></a></g><!--MD5=[5eb5ad82d53aa9d89f9ca33d567a12a3]
+entity resmedica_app--><g id="elem_resmedica_app"><rect fill="#1168BD" height="115.3399" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="178" x="276" y="327"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="340.5" y="349.8281">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="304.5" y="370.4481">Resmedica App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="363" y="390.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="290" y="409.17">Gerenciamento para o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="331.5" y="428.2379">Residente</text></g><!--MD5=[05e8569061a9ab7344e31dcf75586d01]
+entity sagu_front--><g id="elem_sagu_front"><rect fill="#1168BD" height="115.3399" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="178" x="489" y="327"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="553.5" y="349.8281">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="535.5" y="370.4481">sagu-front</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="576" y="390.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="503" y="409.17">Gerenciamento para o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="507" y="428.2379">Gestor da Residência</text></g><!--MD5=[ada27f43da2f814c5e0b99219a4f940e]
+entity sagu--><g id="elem_sagu"><rect fill="#438DD5" height="131.684" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="197" x="410.5" y="860"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="63" x="477.5" y="882.8281">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="44" x="487" y="903.4481">SAGU</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="172" x="423" y="920.9642">[PHP 5.6, Miolo, Apache, Docker]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="507" y="939.4462"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="420.5" y="958.5141">Sistema Aberto de Gestão</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="477" y="977.582">Unificada</text></g><!--MD5=[8aaa66c4bf1e22bfd1ac024da1265add]
+entity sagu_db--><g id="elem_sagu_db"><path d="M91.5,894.5 C91.5,884.5 188,884.5 188,884.5 C188,884.5 284.5,884.5 284.5,894.5 L284.5,957.9803 C284.5,967.9803 188,967.9803 188,967.9803 C188,967.9803 91.5,967.9803 91.5,957.9803 L91.5,894.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M91.5,894.5 C91.5,904.5 188,904.5 188,904.5 C188,904.5 284.5,904.5 284.5,894.5 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="63" x="156.5" y="921.3281">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="173" x="101.5" y="941.9481">Banco de dados SAGU</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="111" x="132.5" y="959.4642">[PostgreSQL, Docker]</text></g><!--MD5=[60d59e237da9125f5cbee741a5fe62ac]
+entity assinatura_eletronica--><g id="elem_assinatura_eletronica"><rect fill="#999999" height="115.3399" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="195" x="824.5" y="1167"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="98" x="873" y="1189.8281">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="173" x="835.5" y="1210.4481">Assinatura Eletrônica</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="920" y="1230.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="854" y="1249.17">Realiza a Assinatura</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="834.5" y="1268.2379">Eletrônica de documentos</text></g><!--MD5=[78104f009fae26cfa4fa5bfb43df4efb]
+entity profissionalDeSaude--><g id="elem_profissionalDeSaude"><rect fill="#08427B" height="163.3399" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="220" x="362" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="447.5" y="29.8281">«person»</text><image height="48" width="48" x="448" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="33.3441"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="171" x="386.5" y="98.4481">Profissional de Saúde</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="470" y="118.1021"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="376" y="137.17">Médicos, enfermeiros, ACS e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="459.5" y="156.2379">ETC</text></g><!--MD5=[f60fbc2817aeb41d78aa122774bf6006]
+link saguapi to sagu_db--><g id="link_saguapi_sagu_db"><path d="M291.2,687.34 C266.53,744.15 231.57,824.67 209.34,875.86 " fill="none" id="saguapi-to-sagu_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="206.21,883.05,212.1462,876.905,206.6419,874.5169,206.21,883.05" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="89" x="278" y="730.8281">Acessa o Banco</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="309" y="747.1722">[SQL]</text></g><!--MD5=[158b013331f1c19d694aa23de08b41e7]
+reverse link sagu_db to sagu--><g id="link_sagu_db_sagu"><path d="M294.16,926 C331.57,926 373.45,926 410.23,926 " fill="none" id="sagu_db-backto-sagu" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="286.26,926,294.26,929,294.26,923,286.26,926" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="89" x="303" y="902.8281">Acessa o Banco</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="334" y="919.1722">[SQL]</text></g><!--MD5=[5d373f602c48b3b8da0d3d03a395a0c8]
+link esp_integracao_assinador to assinatura_eletronica--><g id="link_esp_integracao_assinador_assinatura_eletronica"><path d="M650.13,1224.5 C700.16,1224.5 762.48,1224.5 814.83,1224.5 " fill="none" id="esp_integracao_assinador-to-assinatura_eletronica" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="822.63,1224.5,814.63,1221.5,814.63,1227.5,822.63,1224.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="668.25" y="1184.3281">Assinatura digital com</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="678.75" y="1200.6722">validação do GovBR</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="721.75" y="1217.0163">[REST]</text></g><!--MD5=[c120b51be829fc333e150a7933964eae]
+link profissionalDeSaude to sagu_system--><g id="link_profissionalDeSaude_sagu_system"><path d="M582.25,141.45 C621.46,166.02 661.25,199.44 683,242 C751.65,376.325 742.3425,545.4675 715.53,681.8225 C702.1238,750 684.3413,809.9806 669.7391,853.3138 C662.438,874.9803 655.932,892.485 651.1656,904.7715 " fill="none" id="profissionalDeSaude-to-sagu_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="651.1656,904.7715,656.8559,898.3981,651.2621,896.228,651.1656,904.7715" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="736" y="494.3281">Acessa o site</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="39" x="754" y="510.6722">[HTTPS]</text></g><!--MD5=[171dbf4ba441d48cabd8de7b8e5536f6]
+link profissionalDeSaude to isus--><g id="link_profissionalDeSaude_isus"><path d="M361.51,133.23 C325.76,150.65 287.5,173.04 257,200 C219.25,233.36 187.46,280.49 165.39,318.63 " fill="none" id="profissionalDeSaude-to-isus" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="161.58,325.31,168.143,319.8394,162.9276,316.8729,161.58,325.31" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="258" y="213.8281">Acessa o aplicativo</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="278.5" y="230.1722">[Android/iOS]</text></g><!--MD5=[25bd3a1f77b788f64752da9cd5888ee2]
+link profissionalDeSaude to resmedica_app--><g id="link_profissionalDeSaude_resmedica_app"><path d="M405.17,170.35 C399.34,179.96 394.1,189.93 390,200 C374.91,237.04 368.58,281.4 366.06,317.23 " fill="none" id="profissionalDeSaude-to-resmedica_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="365.57,325.11,369.0649,317.3135,363.0767,316.9379,365.57,325.11" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="391" y="213.8281">Acessa o aplicativo</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="411.5" y="230.1722">[Android/iOS]</text></g><!--MD5=[ebb3a6462a7a63fdefca18387718c1c4]
+link profissionalDeSaude to sagu_front--><g id="link_profissionalDeSaude_sagu_front"><path d="M501.11,170.23 C517.85,216.66 538.62,274.26 554.35,317.89 " fill="none" id="profissionalDeSaude-to-sagu_front" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="557.01,325.28,557.1189,316.7367,551.4745,318.7717,557.01,325.28" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="522" y="213.8281">Acessa o site</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="39" x="540" y="230.1722">[HTTPS]</text></g><!--MD5=[06cb63b46762b6cc82b8de35784b1715]
+link isus to saguapi--><g id="link_isus_saguapi"><path d="M169.4,442.38 C186.72,467.68 208.08,497.47 229,523 C235.19,530.55 241.82,538.23 248.6,545.81 " fill="none" id="isus-to-saguapi" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="253.83,551.6,250.6818,543.6572,246.2354,547.6857,253.83,551.6" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="230" y="485.8281">Acessa dados de</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="65" x="247.5" y="502.1722">frequencia</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="264.5" y="518.5163">[REST]</text></g><!--MD5=[6b8b58773b3ab04d649c0447ef616e90]
+link resmedica_app to saguapi--><g id="link_resmedica_app_saguapi"><path d="M354.05,442.32 C348.18,472.8 340.86,510.75 334.52,543.66 " fill="none" id="resmedica_app-to-saguapi" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="333.04,551.31,337.4997,544.0223,331.6082,542.8868,333.04,551.31" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="348" y="485.8281">Acessa dados da</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="65" x="365.5" y="502.1722">Residência</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="382.5" y="518.5163">[REST]</text></g><!--MD5=[ef665f21f33cafaa6b3bb332fa6b2a55]
+link sagu_front to saguapi--><g id="link_sagu_front_saguapi"><path d="M533.11,442.49 C511.43,468.38 484.25,498.61 457,523 C447.86,531.18 438,539.28 427.92,547.1 " fill="none" id="sagu_front-to-saguapi" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="421.74,551.82,429.9182,549.3469,426.2755,544.5792,421.74,551.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="507" y="485.8281">Acessa dados da</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="65" x="524.5" y="502.1722">Residência</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="541.5" y="518.5163">[REST]</text></g><!--MD5=[ac9a1042bf98f4ea4414d07613372c14]
+link sagu_system to esp_integracao_assinador--><g id="link_sagu_system_esp_integracao_assinador"><path d="M627.7924,1016.248 C627.7509,1016.4324 627.7093,1016.6167 627.6677,1016.801 C627.5012,1017.538 627.3335,1018.2737 627.1646,1019.0078 C626.8269,1020.4762 626.4845,1021.9384 626.1374,1023.3923 C625.4433,1026.3002 624.7306,1029.175 624,1032 C614.07,1070.39 600.25,1112.17 587.91,1146.89 " fill="none" id="sagu_system-to-esp_integracao_assinador" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="585.32,1154.13,590.8445,1147.6124,585.1968,1145.5869,585.32,1154.13" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="106" x="622" y="1053.8281">Acessa o frontend</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="39" x="655.5" y="1070.1722">[HTTPS]</text></g><!--MD5=[f337452c6688a91197c9f1fe638d95da]
+@startuml sagu
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+
+    Enterprise_Boundary(esp, "ESP") {
+
+         System_Boundary(sagu_system, "SAGU") {
+
+            Container(sagu, "SAGU", "PHP 5.6, Miolo, Apache, Docker", "Sistema Aberto de Gestão Unificada")
+            ContainerDb(sagu_db, "Banco de dados SAGU", "PostgreSQL, Docker")
+
+         }
+
+        System(saguapi, "SAGU API", "Interface para uso do Banco de Dados do SAGU em sistemas externos")
+
+        System(esp_integracao_assinador, "Assinador de Documentos", "Assina documentos via Gov.br")
+
+        System(isus, "iSUS", "Aplicativo para profissionais de Saúde", $link="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg")
+
+        System(resmedica_app, "Resmedica App", "Gerenciamento para o Residente")
+
+        System(sagu_front, "sagu-front", "Gerenciamento para o Gestor da Residência")
+
+
+        Rel(saguapi, sagu_db, "Acessa o Banco", "SQL")
+
+        Rel_L(sagu, sagu_db, "Acessa o Banco", "SQL")
+
+    }
+
+    Enterprise_Boundary(govbr, "GovBR") {
+        System_Ext(assinatura_eletronica,"Assinatura Eletrônica", "Realiza a Assinatura Eletrônica de documentos")
+    }
+
+    Rel_R(esp_integracao_assinador, assinatura_eletronica, "Assinatura digital com validação do GovBR", "REST")
+
+    Rel(profissionalDeSaude, sagu_system, "Acessa o site", "HTTPS")
+    Rel(profissionalDeSaude, isus, "Acessa o aplicativo", "Android/iOS")
+    Rel(profissionalDeSaude, resmedica_app, "Acessa o aplicativo", "Android/iOS")
+    Rel(profissionalDeSaude, sagu_front, "Acessa o site", "HTTPS")
+
+    Rel(isus, saguapi, "Acessa dados de frequencia", "REST")
+
+    Rel(resmedica_app, saguapi, "Acessa dados da Residência", "REST")
+    Rel(sagu_front, saguapi, "Acessa dados da Residência", "REST")
+
+    Rel(sagu_system, esp_integracao_assinador, "Acessa o frontend", "HTTPS")
+
+
+@enduml
+
+@startuml sagu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle "<$person>\n==Profissional de Saúde\n\n Médicos, enfermeiros, ACS e ETC" <<person>> as profissionalDeSaude 
+
+
+  rectangle "==ESP\n<size:12>[Enterprise]</size>" <<enterprise_boundary>><<boundary>> as esp  {
+
+  rectangle "==SAGU\n<size:12>[System]</size>" <<system_boundary>><<boundary>> as sagu_system  {
+
+            rectangle "==SAGU\n//<size:12>[PHP 5.6, Miolo, Apache, Docker]</size>//\n\nSistema Aberto de Gestão Unificada" <<container>> as sagu 
+            database "==Banco de dados SAGU\n//<size:12>[PostgreSQL, Docker]</size>//" <<container>> as sagu_db 
+
+         }
+
+        rectangle "==SAGU API\n\n Interface para uso do Banco de Dados do SAGU em sistemas externos" <<system>> as saguapi 
+
+        rectangle "==Assinador de Documentos\n\n Assina documentos via Gov.br" <<system>> as esp_integracao_assinador 
+
+        rectangle "==iSUS\n\n Aplicativo para profissionais de Saúde" <<system>> as isus [[https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg]]
+
+        rectangle "==Resmedica App\n\n Gerenciamento para o Residente" <<system>> as resmedica_app 
+
+        rectangle "==sagu-front\n\n Gerenciamento para o Gestor da Residência" <<system>> as sagu_front 
+
+
+        saguapi - ->> sagu_db : **Acessa o Banco**\n//<size:12>[SQL]</size>//
+
+        sagu -LEFT->> sagu_db : **Acessa o Banco**\n//<size:12>[SQL]</size>//
+
+    }
+
+  rectangle "==GovBR\n<size:12>[Enterprise]</size>" <<enterprise_boundary>><<boundary>> as govbr  {
+        rectangle "==Assinatura Eletrônica\n\n Realiza a Assinatura Eletrônica de documentos" <<external_system>> as assinatura_eletronica 
+    }
+
+    esp_integracao_assinador -RIGHT->> assinatura_eletronica : **Assinatura digital com validação do GovBR**\n//<size:12>[REST]</size>//
+
+    profissionalDeSaude - ->> sagu_system : **Acessa o site**\n//<size:12>[HTTPS]</size>//
+    profissionalDeSaude - ->> isus : **Acessa o aplicativo**\n//<size:12>[Android/iOS]</size>//
+    profissionalDeSaude - ->> resmedica_app : **Acessa o aplicativo**\n//<size:12>[Android/iOS]</size>//
+    profissionalDeSaude - ->> sagu_front : **Acessa o site**\n//<size:12>[HTTPS]</size>//
+
+    isus - ->> saguapi : **Acessa dados de frequencia**\n//<size:12>[REST]</size>//
+
+    resmedica_app - ->> saguapi : **Acessa dados da Residência**\n//<size:12>[REST]</size>//
+    sagu_front - ->> saguapi : **Acessa dados da Residência**\n//<size:12>[REST]</size>//
+
+    sagu_system - ->> esp_integracao_assinador : **Acessa o frontend**\n//<size:12>[HTTPS]</size>//
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 14:01:30 BRT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+--></g></svg>
