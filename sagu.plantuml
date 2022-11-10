@@ -1,0 +1,52 @@
+@startuml sagu
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(profissionalDeSaude, "Profissional de Saúde", "Médicos, enfermeiros, ACS e ETC")
+
+
+    Enterprise_Boundary(esp, "ESP") {
+
+         System_Boundary(sagu_system, "SAGU") {
+
+            Container(sagu, "SAGU", "PHP 5.6, Miolo, Apache, Docker", "Sistema Aberto de Gestão Unificada")
+            ContainerDb(sagu_db, "Banco de dados SAGU", "PostgreSQL, Docker")
+
+         }
+
+        System(saguapi, "SAGU API", "Interface para uso do Banco de Dados do SAGU em sistemas externos")
+
+        System(esp_integracao_assinador, "Assinador de Documentos", "Assina documentos via Gov.br")
+
+        System(isus, "iSUS", "Aplicativo para profissionais de Saúde", $link="https://raw.githubusercontent.com/victorMagalhaesPacheco/plantuml-arquitetura-sistemas-forcadetrabalho/main/out/isus/isus.svg")
+
+        System(resmedica_app, "Resmedica App", "Gerenciamento para o Residente")
+
+        System(sagu_front, "sagu-front", "Gerenciamento para o Gestor da Residência")
+
+
+        Rel(saguapi, sagu_db, "Acessa o Banco", "SQL")
+
+        Rel_L(sagu, sagu_db, "Acessa o Banco", "SQL")
+
+    }
+
+    Enterprise_Boundary(govbr, "GovBR") {
+        System_Ext(assinatura_eletronica,"Assinatura Eletrônica", "Realiza a Assinatura Eletrônica de documentos")
+    }
+
+    Rel_R(esp_integracao_assinador, assinatura_eletronica, "Assinatura digital com validação do GovBR", "REST")
+
+    Rel(profissionalDeSaude, sagu_system, "Acessa o site", "HTTPS")
+    Rel(profissionalDeSaude, isus, "Acessa o aplicativo", "Android/iOS")
+    Rel(profissionalDeSaude, resmedica_app, "Acessa o aplicativo", "Android/iOS")
+    Rel(profissionalDeSaude, sagu_front, "Acessa o site", "HTTPS")
+
+    Rel(isus, saguapi, "Acessa dados de frequencia", "REST")
+
+    Rel(resmedica_app, saguapi, "Acessa dados da Residência", "REST")
+    Rel(sagu_front, saguapi, "Acessa dados da Residência", "REST")
+
+    Rel(sagu_system, esp_integracao_assinador, "Acessa o frontend", "HTTPS")
+
+
+@enduml
